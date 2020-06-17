@@ -167,7 +167,7 @@ footer{
   }
   .intro-content{
     display: block;
-    height: 10%;
+    height: auto;
   }
 
   .intro-content div{
@@ -218,16 +218,16 @@ footer{
   }
 
   .header {
-    height: 10%;
+    height: auto;
   } 
 
   .intro-content {
     height: 30%;
-    
+    padding-right: auto;    
   }
 
   .services {
-    height: 10%;
+    height: auto;
   }
 
   .service-content {
@@ -271,4 +271,3 @@ footer{
   }
 
 }
-
