@@ -161,10 +161,13 @@ footer{
   .header-content h2{
     font-size: 20px;
   }
-
+  .header-content {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+  }
   .intro-content{
     display: block;
-    height: 90vh;
+    height: 10%;
   }
 
   .intro-content div{
@@ -172,7 +175,7 @@ footer{
   }
 
   .services{
-    height: 100vh;
+    height: 10%;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
@@ -180,6 +183,16 @@ footer{
     display: block;
     margin-top: -15vh;
     padding-top: 1px;
+    margin-bottom: -15vh;
+    padding-bottom: 2vh;
+  }
+  
+  .contact-section {
+    padding: 10vh 0;
+  }
+
+  .contact .m-f {
+    padding-bottom: 5px; 
   }
 
   .bucket{
